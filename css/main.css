@@ -9,6 +9,39 @@ body {
     background-color: #efefef;
 }
 
+
+.card-wrapper {
+    display: flex;
+    width: 1005px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+
+.card-photo-block {
+    background: #FFD617;
+    width: 465px;
+    height: 610px;
+    position: relative;
+    margin-top: 45px;
+    
+
+}
+
+.card-product-logo {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+.card-product-image {
+    position: absolute;
+    top: 83px;
+    left: -134px;
+}
+
+
 .card-ditails {
     width: 540px;
     height: 700px;
@@ -41,26 +74,62 @@ body {
 .list {
     font-size: 13px;
     line-height: 28px;
-    margin-bottom: 45px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    list-style-type: none;
 }
+
+
+.list li {
+    position: relative;
+}
+
+.list li::before {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #00c217;
+    position: absolute;
+    left: -15px;
+    top: 12px;
+}
+
 
 .ditails {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.28px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .ditails_item {
     margin-right: 20px;
     margin-bottom: 45px;
 }
-quantity {
+.quantity {
     font-size: 11px;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
-    
-.price-wrapper{
+
+.counter {
+    display: flex;
+    margin-left: 1px;
+    margin-bottom: 30px;
+}
+
+
+.counter-button {
+    width: 40px;
+    height: 35px;
+    border: 1px solid #7c8d9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1px;
+  
+}
+.price-wrapper {
     margin-bottom: 30px;
 }
 .price {
