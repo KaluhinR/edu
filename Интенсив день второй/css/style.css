@@ -157,19 +157,21 @@ body {
     margin-left: auto;
     margin-right:auto;
 }
-
-.view-cart {
-    width: 23px;
-    font-weight: 400;
-}
 .cart-img {
     width: 48px;
     height: auto;
     margin-right: 35px;
 }
-.cart-items {
-    color: #0000FF;
+.view-cart {
+    font-size: 22px;
+    font-weight: 600;
+}   
+.cart-items{
+    color: 	#0000FF;
 }
 .clear-cart {
     margin-left: auto;
+    color: 	#FF0000;
+    border-bottom: 1px dotted #FF0000;
+    cursor: pointer;
 }
